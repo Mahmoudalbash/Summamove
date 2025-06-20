@@ -14,30 +14,27 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
 
-        // add admin user
+        // add admnin user
         User::factory()->create([
             'name' => 'Admin',
-            'email' => 'Admin@example.com',
-            'password' => bcrypt('password'),
+            'email' => 'admin@example.com',
+            'password' => bcrypt('password')
         ]);
 
         // Create sample users
         User::factory()->create([
             'name' => 'Huzaifa',
             'email' => 'huzaifa@example.com',
-            'password' => bcrypt('password'),
         ]);
 
         User::factory()->create([
             'name' => 'Abdu',
             'email' => 'abdu@example.com',
-            'password' => bcrypt('password'),
         ]);
 
         User::factory()->create([
             'name' => 'Mahmoud',
             'email' => 'mahmoud@example.com',
-            'password' => bcrypt('password'),
         ]);
 
         $this->call([
