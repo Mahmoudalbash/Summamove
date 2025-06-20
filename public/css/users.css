@@ -1,0 +1,15 @@
+.Background {
+    background-color: #7b3c4d;
+}
+
+.Summa{
+    color: #7f3e52;
+    font-weight: 900;    /* extra bold */
+    font-size: 2.5rem;   /* grotere tekst */
+}
+
+.Move{
+    color: #445b63;
+    font-weight: 900;    /* extra bold */
+    font-size: 2.5rem;   /* grotere tekst */
+}
