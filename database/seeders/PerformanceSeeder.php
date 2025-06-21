@@ -21,7 +21,7 @@ class PerformanceSeeder extends Seeder
 
         // Create some simple performances
         Performance::create([
-            'user_id' => 1, // Huzaifa
+            'user_id' => 2, // Huzaifa
             'exercise_id' => 1,
             'duration' => 3, //minutes
             'speed' => null,
@@ -29,7 +29,7 @@ class PerformanceSeeder extends Seeder
         ]);
 
         Performance::create([
-            'user_id' => 1, // Huzaifa
+            'user_id' => 2, // Huzaifa
             'exercise_id' => 2,
             'duration' => 2, // 2 minutes
             'speed' => null,
@@ -37,7 +37,7 @@ class PerformanceSeeder extends Seeder
         ]);
 
         Performance::create([
-            'user_id' => 1, // Huzaifa
+            'user_id' => 2, // Huzaifa
             'exercise_id' => 3,
             'duration' => 5, // 5 minutes
             'speed' => null,
@@ -45,7 +45,7 @@ class PerformanceSeeder extends Seeder
         ]);
 
         Performance::create([
-            'user_id' => 1, // Huzaifa
+            'user_id' => 2, // Huzaifa
             'exercise_id' => 4,
             'duration' => 4, // 4 minutes
             'speed' => null,
@@ -53,7 +53,7 @@ class PerformanceSeeder extends Seeder
         ]);
 
         Performance::create([
-            'user_id' => 2, // Abdu
+            'user_id' => 3, // Abdu
             'exercise_id' => 1,
             'duration' => 5, // 5 minutes
             'speed' => null,
@@ -61,7 +61,7 @@ class PerformanceSeeder extends Seeder
         ]);
 
         Performance::create([
-            'user_id' => 2, // Abdu
+            'user_id' => 3, // Abdu
             'exercise_id' => 2,
             'duration' => 3, // 3 minutes
             'speed' => null,
@@ -69,7 +69,7 @@ class PerformanceSeeder extends Seeder
         ]);
 
         Performance::create([
-            'user_id' => 2, // Abdu
+            'user_id' => 3, // Abdu
             'exercise_id' => 3,
             'duration' => 4, // 4 minutes
             'speed' => null,
@@ -77,7 +77,7 @@ class PerformanceSeeder extends Seeder
         ]);
 
         Performance::create([
-            'user_id' => 2, // Abdu
+            'user_id' => 3, // Abdu
             'exercise_id' => 4,
             'duration' => 5, // 5 minutes
             'speed' => null,
@@ -85,7 +85,7 @@ class PerformanceSeeder extends Seeder
         ]);
 
         Performance::create([
-            'user_id' => 3, // Mahmoud
+            'user_id' => 4, // Mahmoud
             'exercise_id' => 1,
             'duration' => 5, // 5 minutes
             'speed' => null,
@@ -93,7 +93,7 @@ class PerformanceSeeder extends Seeder
         ]);
 
         Performance::create([
-            'user_id' => 3, // Mahmoud
+            'user_id' => 4, // Mahmoud
             'exercise_id' => 2,
             'duration' => 3, // 3 minutes
             'speed' => null,
@@ -101,7 +101,7 @@ class PerformanceSeeder extends Seeder
         ]);
 
         Performance::create([
-            'user_id' => 3, // Mahmoud
+            'user_id' => 4, // Mahmoud
             'exercise_id' => 3,
             'duration' => 4, // 4 minutes
             'speed' => null,
@@ -109,7 +109,7 @@ class PerformanceSeeder extends Seeder
         ]);
 
         Performance::create([
-            'user_id' => 3, // Mahmoud
+            'user_id' => 4, // Mahmoud
             'exercise_id' => 4,
             'duration' => 5, // 5 minutes
             'speed' => null,
