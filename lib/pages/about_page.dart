@@ -11,7 +11,7 @@ class AboutPage extends StatelessWidget {
         padding: EdgeInsets.all(16.0),
         // Voorbeeld statische tekst over de app
         child: Text(
-          'Deze app is ontwikkeld om oefeningen bij te houden.\n\nVersie 1.0.0',
+          'Deze app iss ontwikkeld om oefeningen bij te houden.\n\nVersie 1.0.0',
           textAlign: TextAlign.center,
         ),
       ),
