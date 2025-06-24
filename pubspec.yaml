@@ -1,0 +1,29 @@
+name: summamove
+description: Een Flutter app om oefeningen en prestaties bij te houden.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # HTTP-aanroepen naar je Laravel API
+  http: ^0.13.6
+
+  # Voor lokale opslag van auth token
+  shared_preferences: ^2.2.2
+
+  # UI
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
